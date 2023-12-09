@@ -1,0 +1,117 @@
+html {
+  word-break: keep-all;
+}
+body {
+  background-color: rgba(186, 226, 126, 0.468);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+/* FIXME: Header */
+header {
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+header .date {
+  position: absolute;
+  left: 0;
+  margin: 10px;
+}
+header .total-title {
+  font-size: 30px;
+}
+header .total-title span {
+  text-decoration: red underline;
+}
+header .btn-reset {
+  height: 30px;
+  background-color: red;
+  color: white;
+  position: absolute;
+  right: 0;
+  margin: 20px;
+}
+
+/* FIXME: Head */
+.head {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+.head .number {
+  width: 100px;
+  height: 60px;
+  border-right: 2px solid black;
+}
+.head .title {
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  flex-grow: 1;
+  border-right: 2px solid black;
+}
+.head .check {
+  width: 50px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+.head .check-yes {
+  border-right: 2px solid black;
+}
+
+/* FIXME: Content */
+.content {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-top: none;
+}
+.content .number-text {
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 30px;
+  text-align: center;
+  border-right: 2px solid black;
+}
+.content .text-content {
+  height: 45px;
+  line-height: 45px;
+  margin: 10px;
+  background-color: rgba(186, 226, 126, 0.468);
+  font-size: 30px;
+  border: 2px solid orange;
+  border-radius: 6px;
+  flex-grow: 1;
+}
+.content .text-content.remove {
+  text-decoration: white line-through;
+}
+.content .checkbox {
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .checkbox .yes {
+  width: 50%;
+}
+.content .checkbox .no {
+  width: 50%;
+}
